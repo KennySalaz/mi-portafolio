@@ -4,6 +4,7 @@ import React from 'react';
 import HeaderNav from '@/components/HeaderNav';
 import ProfileCard from '@/components/ProfileCard';
 import AuthGuard from '@/components/AuthGuard';
+import DynamicTitle from '@/components/DynamicTitle';
 import { ThemeProvider } from '@/context/ThemeContext';
 import { LanguageProvider } from '@/context/LanguageContext';
 import { ConfigProvider } from '@/context/ConfigContext';
@@ -11,9 +12,10 @@ import styles from '@/styles/PageLayout.module.css';
 
 export default function ClientLayout({ children }: { children: React.ReactNode }) {
   return (
-    <ConfigProvider>
+      <ConfigProvider>
       <LanguageProvider>
         <ThemeProvider>
+          <DynamicTitle />
           <AuthGuard>
             <HeaderNav />
             <div className={styles.container}>
