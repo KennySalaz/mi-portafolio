@@ -1,0 +1,34 @@
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-secondary);
+  transition: all 0.2s ease;
+}
+
+.toggle:hover {
+  border-color: var(--accent-color);
+}
+
+.separator {
+  color: var(--border-color);
+  margin: 0 2px;
+}
+
+.active {
+  color: var(--accent-color);
+}
+
+@media (max-width: 768px) {
+  .toggle {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+}

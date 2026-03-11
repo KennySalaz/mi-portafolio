@@ -1,0 +1,582 @@
+{
+  "meta": {
+    "title": "Kenny Salazar | Frontend Engineer",
+    "description": "Portafolio de Kenny Salazar, Frontend Engineer especializado en Vue, React, Next.js y React Native.",
+    "lang": "es"
+  },
+  "theme": {
+    "defaultTheme": "dark",
+    "colors": {
+      "light": {
+        "--bg-primary": "#f5f7fb",
+        "--bg-secondary": "#ffffff",
+        "--text-primary": "#0f172a",
+        "--text-secondary": "#64748b",
+        "--border-color": "#e2e8f0",
+        "--accent-color": "#6366f1",
+        "--accent-hover": "#4f46e5",
+        "--card-bg": "#ffffff",
+        "--hover-bg": "#f8fafc",
+        "--shadow-sm": "0 2px 4px rgba(0, 0, 0, 0.05)",
+        "--shadow-md": "0 4px 6px rgba(0, 0, 0, 0.05)",
+        "--shadow-lg": "0 8px 16px rgba(0, 0, 0, 0.1)"
+      },
+      "dark": {
+        "--bg-primary": "#0a0f1e",
+        "--bg-secondary": "#131829",
+        "--text-primary": "#e2e8f0",
+        "--text-secondary": "#94a3b8",
+        "--border-color": "#1e293b",
+        "--accent-color": "#818cf8",
+        "--accent-hover": "#a5b4fc",
+        "--card-bg": "#131829",
+        "--hover-bg": "#1e293b",
+        "--shadow-sm": "0 2px 4px rgba(0, 0, 0, 0.3)",
+        "--shadow-md": "0 4px 6px rgba(0, 0, 0, 0.3)",
+        "--shadow-lg": "0 8px 16px rgba(0, 0, 0, 0.4)"
+      }
+    },
+    "font": "Inter"
+  },
+  "profile": {
+    "name": "Kenny Salazar",
+    "initials": "KS",
+    "role": "Frontend Engineer",
+    "email": "mipto.kenny@gmail.com",
+    "phone": "+58 424-1539300",
+    "location": "Caracas, Venezuela",
+    "availability": "Remoto • Freelance",
+    "socialLinks": [
+      { "platform": "FaLinkedin", "url": "https://www.linkedin.com/in/kenny-salazar-555547221", "label": "LinkedIn" },
+      { "platform": "FaGithub", "url": "https://github.com/KennySalaz", "label": "GitHub" },
+      { "platform": "HiMail", "url": "mailto:mipto.kenny@gmail.com", "label": "Email" }
+    ],
+    "badges": ["Vue", "React", "Next.js", "React Native"],
+    "cvUrl": ""
+  },
+  "navigation": {
+    "pages": [
+      { "id": "/", "icon": "HiHome", "labelKey": "nav.home" },
+      { "id": "/about", "icon": "HiDocumentText", "labelKey": "nav.resume" },
+      { "id": "/work", "icon": "HiBriefcase", "labelKey": "nav.work" },
+      { "id": "/tech-stack", "icon": "HiChip", "labelKey": "nav.stack" },
+      { "id": "/blog", "icon": "HiNewspaper", "labelKey": "nav.blog" },
+      { "id": "/contact", "icon": "HiMail", "labelKey": "nav.contact" }
+    ]
+  },
+  "home": {
+    "techChips": ["Vue.js", "React", "Next.js", "React Native", "TypeScript"],
+    "stats": [
+      { "number": 5, "suffix": "+", "labelKey": "home.stats.years" },
+      { "number": 50, "suffix": "+", "labelKey": "home.stats.projects" },
+      { "number": 100, "suffix": "%", "labelKey": "home.stats.satisfaction" }
+    ]
+  },
+  "testimonials": [
+    {
+      "name": "testimonial1.name",
+      "role": "testimonial1.role",
+      "avatar": "MG",
+      "textKey": "testimonial1.text",
+      "rating": 5
+    },
+    {
+      "name": "testimonial2.name",
+      "role": "testimonial2.role",
+      "avatar": "CR",
+      "textKey": "testimonial2.text",
+      "rating": 5
+    },
+    {
+      "name": "testimonial3.name",
+      "role": "testimonial3.role",
+      "avatar": "AM",
+      "textKey": "testimonial3.text",
+      "rating": 5
+    }
+  ],
+  "about": {
+    "education": [
+      { "period": "2020-2021", "title": "Desarrollo de Software", "institution": "Escuela Técnica" },
+      { "period": "2016-2018", "title": "Diseño Web", "institution": "Instituto Digital" }
+    ],
+    "experience": [
+      { "period": "2022 - 2026", "title": "Desarrollador Web y Móvil", "company": "Mipto Tech" },
+      { "period": "2021-2022", "title": "Frontend Developer", "company": "Startup Digital" },
+      { "period": "2019-2021", "title": "Web Developer", "company": "Agencia Creativa" }
+    ],
+    "skills": {
+      "Frontend": ["Vue.js", "React", "Next.js", "Nuxt.js", "TypeScript", "JavaScript"],
+      "Mobile": ["React Native", "Expo"],
+      "Styling": ["Tailwind CSS", "CSS3", "SASS", "Styled Components"],
+      "Tools": ["Git", "Figma", "VS Code", "Postman"],
+      "Gestión de Proyectos": ["Jira", "Trello", "Asana", "Notion", "Linear"]
+    }
+  },
+  "work": {
+    "projects": [
+      {
+        "titleKey": "work.project1.title",
+        "category": "App Móvil",
+        "descKey": "work.project1.desc",
+        "achievementsKey": "work.project1.achievements",
+        "tags": ["React Native", "NodeJS", "NestJS", "Websockets", "Google Maps", "Stripe", "NoSQL"],
+        "icon": "HiDeviceMobile"
+      },
+      {
+        "titleKey": "work.project2.title",
+        "category": "Web App",
+        "descKey": "work.project2.desc",
+        "achievementsKey": "work.project2.achievements",
+        "tags": ["NuxtJS", "Vue 2", "Vue 3", "Websockets", "Stripe"],
+        "icon": "HiUsers"
+      },
+      {
+        "titleKey": "work.project3.title",
+        "category": "Web Platform",
+        "descKey": "work.project3.desc",
+        "achievementsKey": "work.project3.achievements",
+        "tags": ["Vue 3", "Websockets"],
+        "icon": "HiCash"
+      },
+      {
+        "titleKey": "work.project4.title",
+        "category": "Web Platform",
+        "descKey": "work.project4.desc",
+        "achievementsKey": "work.project4.achievements",
+        "tags": ["NuxtJS", "Vue 3", "Whitelabel"],
+        "icon": "HiLightningBolt"
+      },
+      {
+        "titleKey": "work.project5.title",
+        "category": "Dashboard AI",
+        "descKey": "work.project5.desc",
+        "achievementsKey": "work.project5.achievements",
+        "tags": ["Angular 8+", "NestJS", "Auth0", "Stripe", "AI"],
+        "icon": "HiTranslate"
+      },
+      {
+        "titleKey": "work.project6.title",
+        "category": "Competición",
+        "descKey": "work.project6.desc",
+        "achievementsKey": "work.project6.achievements",
+        "tags": ["Angular 8+", "Firebase"],
+        "icon": "HiTrophy"
+      },
+      {
+        "titleKey": "work.project7.title",
+        "category": "Creator Platform",
+        "descKey": "work.project7.desc",
+        "achievementsKey": "work.project7.achievements",
+        "tags": ["React JS", "TypeScript", "Firebase", "NestJS", "Stripe", "CCBILL", "Websockets"],
+        "icon": "HiStar"
+      },
+      {
+        "titleKey": "work.project8.title",
+        "category": "E-commerce",
+        "descKey": "work.project8.desc",
+        "achievementsKey": "work.project8.achievements",
+        "tags": ["React", "TypeScript", "Firebase", "Vite", "Context API"],
+        "icon": "HiShoppingCart"
+      },
+      {
+        "titleKey": "work.project9.title",
+        "category": "Enterprise CRM",
+        "descKey": "work.project9.desc",
+        "achievementsKey": "work.project9.achievements",
+        "tags": ["React", "TypeScript", "Material UI", "Vite", "REST APIs"],
+        "icon": "HiOfficeBuilding"
+      },
+      {
+        "titleKey": "work.project10.title",
+        "category": "Web Platform",
+        "descKey": "work.project10.desc",
+        "achievementsKey": "work.project10.achievements",
+        "tags": ["Nuxt.js 3", "Vue 3", "TypeScript", "Tailwind CSS", "Nuxt Layers"],
+        "icon": "HiCash"
+      },
+      {
+        "titleKey": "work.project11.title",
+        "category": "Premium E-commerce",
+        "descKey": "work.project11.desc",
+        "achievementsKey": "work.project11.achievements",
+        "tags": ["React", "JavaScript", "Firebase", "Vite", "GSAP", "Canvas", "CSS Avanzado"],
+        "icon": "HiSparkles"
+      },
+      {
+        "titleKey": "work.project12.title",
+        "category": "Web Platform",
+        "descKey": "work.project12.desc",
+        "achievementsKey": "work.project12.achievements",
+        "tags": ["Vue 3", "Tailwind CSS", "Vite", "Socket.io", "PSPDFKit", "Pinia", "Chart.js"],
+        "icon": "HiTruck"
+      },
+      {
+        "titleKey": "work.project13.title",
+        "category": "SaaS Platform",
+        "descKey": "work.project13.desc",
+        "achievementsKey": "work.project13.achievements",
+        "tags": ["Laravel", "PHP", "MySQL", "Stancl Tenancy", "Bootstrap", "Blade Templates", "Google 2FA", "DataTables"],
+        "icon": "HiCloud"
+      }
+    ]
+  },
+  "techStack": {
+    "categories": [
+      {
+        "titleKey": "stack.category.frontend",
+        "skills": [
+          { "name": "React", "icon": "SiReact", "level": 95, "color": "#61DAFB" },
+          { "name": "Next.js", "icon": "SiNextdotjs", "level": 90, "color": "#000000" },
+          { "name": "Vue.js", "icon": "SiVuedotjs", "level": 85, "color": "#4FC08D" },
+          { "name": "Angular", "icon": "SiAngular", "level": 75, "color": "#DD0031" }
+        ]
+      },
+      {
+        "titleKey": "stack.category.languages",
+        "skills": [
+          { "name": "TypeScript", "icon": "SiTypescript", "level": 92, "color": "#3178C6" },
+          { "name": "JavaScript", "icon": "SiJavascript", "level": 95, "color": "#F7DF1E" }
+        ]
+      },
+      {
+        "titleKey": "stack.category.styling",
+        "skills": [
+          { "name": "Tailwind CSS", "icon": "SiTailwindcss", "level": 93, "color": "#06B6D4" },
+          { "name": "CSS3", "icon": "SiCss3", "level": 90, "color": "#1572B6" },
+          { "name": "HTML5", "icon": "SiHtml5", "level": 95, "color": "#E34F26" },
+          { "name": "Figma", "icon": "SiFigma", "level": 85, "color": "#F24E1E" }
+        ]
+      },
+      {
+        "titleKey": "stack.category.backend",
+        "skills": [
+          { "name": "PostgreSQL", "icon": "SiPostgresql", "level": 82, "color": "#4169E1" },
+          { "name": "MongoDB", "icon": "SiMongodb", "level": 80, "color": "#47A248" }
+        ]
+      },
+      {
+        "titleKey": "stack.category.tools",
+        "skills": [
+          { "name": "Git", "icon": "SiGit", "level": 90, "color": "#F05032" },
+          { "name": "Docker", "icon": "SiDocker", "level": 75, "color": "#2496ED" }
+        ]
+      },
+      {
+        "titleKey": "stack.category.management",
+        "skills": [
+          { "name": "Jira", "icon": "SiJira", "level": 88, "color": "#0052CC" },
+          { "name": "Trello", "icon": "SiTrello", "level": 85, "color": "#0079BF" },
+          { "name": "Notion", "icon": "SiNotion", "level": 90, "color": "#000000" }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "methods": [
+      {
+        "icon": "HiMail",
+        "label": "Email",
+        "value": "mipto.kenny@gmail.com",
+        "link": "mailto:mipto.kenny@gmail.com"
+      },
+      {
+        "icon": "FaWhatsapp",
+        "label": "WhatsApp",
+        "value": "+58 424-1539300",
+        "link": "https://wa.me/584241539300"
+      },
+      {
+        "icon": "HiLocationMarker",
+        "label": "profile.location",
+        "value": "Caracas, Venezuela"
+      }
+    ]
+  },
+  "blog": {
+    "posts": [
+      {
+        "title": "Cómo optimizar el rendimiento en Next.js",
+        "excerpt": "Descubre las mejores prácticas para hacer que tus aplicaciones Next.js sean más rápidas y eficientes.",
+        "date": "15 Ene 2026",
+        "readTime": "5 min",
+        "category": "Next.js",
+        "slug": "optimizar-rendimiento-nextjs",
+        "content": "<p>Next.js es un framework increíblemente poderoso para React, pero como cualquier herramienta, necesita ser utilizado correctamente para obtener el mejor rendimiento posible.</p><h2>1. Optimización de imágenes</h2><p>Utiliza el componente Image de Next.js en lugar del tag HTML img convencional. Este componente automáticamente:</p><ul><li>Carga lazy de imágenes (solo cuando están en viewport)</li><li>Genera versiones optimizadas en WebP</li><li>Ajusta automáticamente el tamaño para diferentes dispositivos</li><li>Previene el Cumulative Layout Shift (CLS)</li></ul><h2>2. Code Splitting y Dynamic Imports</h2><p>Next.js hace code splitting automáticamente, pero puedes optimizarlo aún más con dynamic imports para componentes pesados.</p><h2>3. Server Components</h2><p>Aprovecha los Server Components en Next.js 14+ para reducir el JavaScript enviado al cliente. Solo marca como 'use client' los componentes que realmente necesiten interactividad.</p><h2>4. Prefetching inteligente</h2><p>Next.js hace prefetch automático de las rutas en los componentes Link cuando están en viewport. Aprovecha esto para mejorar la navegación percibida.</p><h2>Conclusión</h2><p>Estas optimizaciones pueden mejorar significativamente el rendimiento de tu aplicación Next.js. Recuerda siempre medir con herramientas como Lighthouse antes y después de implementar cambios.</p>"
+      },
+      {
+        "title": "Estado global con Zustand vs Redux",
+        "excerpt": "Comparativa detallada entre dos de las soluciones de gestión de estado más populares en React.",
+        "date": "8 Ene 2026",
+        "readTime": "7 min",
+        "category": "React",
+        "slug": "zustand-vs-redux",
+        "content": "<p>La gestión de estado es uno de los aspectos más importantes en aplicaciones React modernas. Veamos dos de las soluciones más populares.</p><h2>Redux: El veterano</h2><p>Redux ha sido el estándar de la industria durante años. Sus ventajas incluyen:</p><ul><li>Ecosistema maduro con muchas herramientas</li><li>Redux DevTools para debugging</li><li>Patrón predecible y bien documentado</li><li>Middleware potente (thunks, sagas)</li></ul><h2>Zustand: El moderno minimalista</h2><p>Zustand ofrece una API más simple y menos boilerplate.</p><h2>Conclusión</h2><p>Ambas son excelentes opciones. Zustand es perfecto para proyectos nuevos y medianos, mientras Redux sigue siendo sólido para aplicaciones enterprise complejas.</p>"
+      },
+      {
+        "title": "Animaciones con Framer Motion",
+        "excerpt": "Aprende a crear animaciones fluidas y profesionales en tus aplicaciones React con Framer Motion.",
+        "date": "2 Ene 2026",
+        "readTime": "6 min",
+        "category": "UI/UX",
+        "slug": "animaciones-framer-motion",
+        "content": "<p>Framer Motion es una biblioteca de animaciones para React que hace que crear interfaces fluidas y atractivas sea increíblemente sencillo.</p><h2>Conceptos básicos</h2><p>El componente motion es la base de todo.</p><h2>Variants para animaciones complejas</h2><p>Los variants te permiten organizar mejor tus animaciones y crear efectos coordinados.</p><h2>Gestos y hover effects</h2><p>Framer Motion facilita agregar interactividad: whileHover, whileTap, drag, scroll.</p><h2>Performance</h2><p>Framer Motion está optimizado para usar la GPU, asegurando animaciones a 60fps.</p><h2>Conclusión</h2><p>Framer Motion es una herramienta esencial para cualquier desarrollador React que quiera crear interfaces modernas y atractivas sin complicaciones.</p>"
+      },
+      {
+        "title": "Vue 3 Composition API: Guía completa",
+        "excerpt": "Todo lo que necesitas saber sobre la Composition API de Vue 3 y cómo migrar desde Options API.",
+        "date": "28 Dic 2025",
+        "readTime": "10 min",
+        "category": "Vue.js",
+        "slug": "vue-composition-api",
+        "content": "<p>La Composition API de Vue 3 es una de las características más importantes del framework.</p><h2>¿Por qué Composition API?</h2><p>Permite organizar mejor la lógica de los componentes y reutilizar funcionalidad entre componentes.</p>"
+      },
+      {
+        "title": "Testing en React Native con Jest",
+        "excerpt": "Guía práctica para implementar tests unitarios y de integración en tus aplicaciones React Native.",
+        "date": "20 Dic 2025",
+        "readTime": "8 min",
+        "category": "React Native",
+        "slug": "testing-react-native",
+        "content": "<p>El testing es fundamental para mantener la calidad de tus aplicaciones React Native.</p><h2>Jest y React Native Testing Library</h2><p>Estas dos herramientas juntas forman una combinación poderosa para testing.</p>"
+      },
+      {
+        "title": "CSS-in-JS: Styled Components vs Tailwind",
+        "excerpt": "Análisis de dos enfoques diferentes para el styling en aplicaciones modernas de JavaScript.",
+        "date": "15 Dic 2025",
+        "readTime": "6 min",
+        "category": "CSS",
+        "slug": "css-in-js-comparativa",
+        "content": "<p>El styling en aplicaciones modernas de JavaScript tiene muchas opciones. Comparemos dos de las más populares.</p><h2>Styled Components</h2><p>CSS-in-JS con template literals.</p><h2>Tailwind CSS</h2><p>Utility-first CSS framework.</p>"
+      }
+    ]
+  },
+  "translations": {
+    "es": {
+      "nav.home": "Inicio",
+      "nav.resume": "Resume",
+      "nav.work": "Trabajo",
+      "nav.stack": "Stack",
+      "nav.blog": "Blog",
+      "nav.contact": "Contacto",
+      "profile.role": "Frontend Engineer",
+      "profile.location": "Dirección",
+      "profile.status": "Disponible para trabajar",
+      "profile.download": "Descargar CV",
+      "home.greeting": "¡Hola! Soy",
+      "home.title": "Frontend Engineer",
+      "home.description": "Especializado en crear experiencias web y móviles excepcionales con Vue.js, React, Next.js y React Native. Transformo ideas en productos digitales de alto rendimiento.",
+      "home.cta": "Ver mi trabajo",
+      "home.stats.years": "Años de experiencia",
+      "home.stats.projects": "Proyectos completados",
+      "home.stats.satisfaction": "Satisfacción del cliente",
+      "home.testimonials.title": "Lo que dicen mis clientes",
+      "about.title": "Resume",
+      "about.education": "Educación",
+      "about.experience": "Experiencia",
+      "about.skills": "Habilidades",
+      "about.degree": "Ingeniería en Sistemas",
+      "about.university": "Universidad Tecnológica",
+      "about.job1.title": "Desarrollador Web y Móvil",
+      "about.job1.company": "Mipto Tech",
+      "about.job1.desc": "Desarrollo de aplicaciones web y móviles. Lideré y participé en la creación de 7 proyectos escalables, abarcando desde buscadores B2B, plataformas de apuestas, hasta aplicaciones con integración de IA.",
+      "about.job2.title": "Frontend Developer",
+      "about.job2.company": "Digital Agency",
+      "about.job2.desc": "Desarrollé sitios web responsivos y aplicaciones móviles usando React Native. Colaboré con equipos de diseño para crear interfaces de usuario excepcionales.",
+      "about.job3.title": "Junior Developer",
+      "about.job3.company": "StartupXYZ",
+      "about.job3.desc": "Inicié mi carrera desarrollando componentes reutilizables y aprendiendo las mejores prácticas de desarrollo frontend moderno.",
+      "about.skills.frontend": "Frontend Frameworks",
+      "about.skills.mobile": "Desarrollo Móvil",
+      "about.skills.styling": "Styling & UI",
+      "about.skills.tools": "Herramientas & DevOps",
+      "about.skills.management": "Gestión de Proyectos",
+      "work.title": "Proyectos Destacados",
+      "work.description": "A continuación, presento una selección de los proyectos en los que he colaborado, tanto de forma independiente como integrado en equipos de alto rendimiento. Cada uno de estos desarrollos refleja mi compromiso constante con la calidad, la escalabilidad y la creación de soluciones tecnológicas robustas.",
+      "work.viewProject": "Ver proyecto",
+      "work.project1.title": "Globuco",
+      "work.project1.desc": "Aplicación de tipo buscador donde los usuarios obtienen productos de fabricantes y hacen contacto a través de chat en tiempo real.",
+      "work.project1.achievements": "Desarrollo de aplicación buscador para conectar usuarios con fabricantes|Implementación de chat en tiempo real con Websockets|Integración de inicio de sesión con Google OAuth|Implementación de Google Maps para geolocalización|Conexión por API REST con backend NestJS y base de datos NoSQL|Desarrollo de vistas y funcionalidades aplicando principios SOLID|Despliegue de la app en Google Play y App Store|Integración de pagos con Stripe en React Native",
+      "work.project2.title": "Shareity",
+      "work.project2.desc": "Web app estilo red social para la publicación de retos con chat en tiempo real, reproductor de videos tipo Reels y dashboard administrativo.",
+      "work.project2.achievements": "Desarrollo de web app estilo red social para subida de retos|Implementación de chat en tiempo real con Websockets|Reproductor de videos tipo Reels con scroll infinito|Dashboard administrativo: incidencias, retos y pagos con Stripe|Sistema de permisos y roles para distintos tipos de usuario",
+      "work.project3.title": "Centerhorses",
+      "work.project3.desc": "Plataforma web de apuestas de caballos con múltiples combinaciones, gestión de billetera y eventos en tiempo real.",
+      "work.project3.achievements": "Desarrollo completo de plataforma de apuestas de caballos|Múltiples opciones de apuestas y combinaciones|Manejo de tiempos en vivo para eventos ganadores/perdedores|Perfil de usuario y billetera digital|Autenticación por token para validación de usuarios y clientes",
+      "work.project4.title": "Deportes en Vivo",
+      "work.project4.desc": "Plataforma de apuestas deportivas en vivo (Fútbol, Basquetbol, Tenis) con sistema de templates multi-cliente y configuración whitelabel.",
+      "work.project4.achievements": "Plataforma de apuestas de deportes en vivo multimodal|Múltiples opciones de apuestas y combinaciones en tiempo real|Configuración de eventos, tipos de apuestas y banners por cliente|Sistema de tickets personalizados por cliente|Implementación de múltiples templates (Layers) con misma funcionalidad y diferente UI|Selección de template por cliente mediante configuración whitelabel",
+      "work.project5.title": "Devactory",
+      "work.project5.desc": "Dashboard para traducción de archivos (PDF, DOCX y más) con IA, revisión humana, sistema de wallet y suscripciones con Stripe.",
+      "work.project5.achievements": "Dashboard para traducción de múltiples formatos: PDF, DOCX y más|Traducción con IA y opción de revisión por Traductor Autenticado|Perfil, billetera y límite de palabras a traducir|Integración con Auth0 para autenticación y manejo de roles|Integración con Stripe para recarga de palabras y suscripciones",
+      "work.project6.title": "COMFECO",
+      "work.project6.desc": "Proyecto desarrollado en equipo de 5 personas en competición de desarrollo a nivel latinoamericano.",
+      "work.project6.achievements": "Participación en equipo de 5 personas en competición latinoamericana|Desarrollo de módulos de autenticación|Implementación de componentes reutilizables y escalables|Conexión con Firebase para administración de usuarios",
+      "work.project7.title": "Ohdear Xtra",
+      "work.project7.desc": "Plataforma para creadores de contenido con streams en vivo, historias, chat avanzado, suscripciones y pagos integrados con Stripe y CCBILL.",
+      "work.project7.achievements": "Posts: imágenes, videos, threads, encuestas, historias y lives|Sistema completo de planes de suscripción para creadores|Compras de posts, coins y mensajes premium en chat|Lives con comentarios en tiempo real, sistema de regalos y reacciones|Respuesta privada a historias, reacciones a mensajes y posts|Firebase para posts, usuarios, historias, lives, chat y reacciones|Virtualized para el feed con mejor rendimiento y experiencia|Configuración whitelabel por URL: colores, acciones, modales|Integración de pagos con Stripe & CCBILL",
+      "work.project8.title": "SikerApp",
+      "work.project8.desc": "Plataforma web completa para la venta y financiamiento de motocicletas con panel de administración y sistema de clientes.",
+      "work.project8.achievements": "Registro de usuarios, exploración de catálogo web y simulación de financiamientos|Panel de administración para gestionar modelos, usuarios, financiamientos y pagos|Subida de comprobantes de pago y seguimiento del proceso de compra|Sistema de autenticación con recuperación de contraseña|Rutas protegidas basadas en roles",
+      "work.project9.title": "Ecosistema Frontend v2.0",
+      "work.project9.desc": "Sistema CRM empresarial a gran escala multipropósito para marketing y call centers con soporte multi-módulo independiente.",
+      "work.project9.achievements": "Gestión de leads comerciales y seguimiento de conversiones por canal|Tablero Kanban integrado para organizar tareas de equipo a gran escala|Gestión de recompensas, sorteos de clientes, reportes y facturación|Arquitectura multi-módulo independiente garantizando la escalabilidad sin fricción|Sistema robusto de autenticación, workspaces y navegación dinámica según el rol",
+      "work.project10.title": "CenterBet App",
+      "work.project10.desc": "Aplicación web enfocada a una gran plataforma de apuestas deportivas estructurada con una arquitectura modular por capas.",
+      "work.project10.achievements": "Arquitectura optimizada por capas separando la lógica visual de negocio|Soporte base de configuración y estilos globales para gran cantidad de layouts|Sistema de navegación fluido preparado hacia diversas secciones de apuestas",
+      "work.project11.title": "Page Everyday",
+      "work.project11.desc": "Tienda e-commerce premium destacada por una calidad muy fuerte en experiencia visual, efectos e interacciones dinámicas.",
+      "work.project11.achievements": "Catálogo completo, visualización de lujo y carrito con sistema de compra|Innovador diseño interactivo: partículas de oro, cursor personalizado|Efectos GSAP con scroll horizontal, revelado en imágenes y contadores animados|Dashboard interno para el control y análisis exhaustivo sobre el inventario y métricas",
+      "work.project12.title": "Auto Sensei Front",
+      "work.project12.desc": "Plataforma web automotriz multipropósito para gestionar vehículos, validar documentos sin salir del entorno y gráficas en vivo.",
+      "work.project12.achievements": "Visualización y firma de documentos PDF dinámicos directamente usando PSPDFKit|Gestión central de vehículos conectados a módulos de gráficos de rendimiento|Notificaciones automáticas e instantáneas en toda la interacción a través de WebSockets|Comunicación sin tiempo de espera entre distintos concesionarios sobre la plataforma",
+      "work.project13.title": "Tenancy SaaS",
+      "work.project13.desc": "Un sistema comercial SaaS de arquitectura multi-tenant permitiendo brindar bases de datos y configuraciones aisladas a distintas empresas desde una misma base de código.",
+      "work.project13.achievements": "Instalación central para múltiples empresas, obteniendo completo aislamiento de subdominio y bases de datos por separado|Tablas dinámicas manejando miles de registros individualizados|Sistema completo para controlar inventario, múltiples sedes y ventas con gestión de permisos por clientes|Alta seguridad empleando inicio de doble factor universal (2FA)",
+      "stack.title": "Tech Stack",
+      "stack.intro": "Tecnologías y herramientas que utilizo en mi día a día. Siempre aprendiendo y evolucionando.",
+      "stack.footer": "🚀 Siempre explorando nuevas tecnologías y mejorando mis habilidades existentes.",
+      "stack.category.frontend": "Frontend Frameworks",
+      "stack.category.languages": "Lenguajes",
+      "stack.category.styling": "Styling & Design",
+      "stack.category.backend": "Backend & Databases",
+      "stack.category.tools": "Tools & DevOps",
+      "stack.category.management": "Project Management",
+      "blog.title": "Blog",
+      "blog.intro": "Comparto mis experiencias, aprendizajes y tips sobre desarrollo web y móvil.",
+      "blog.readMore": "Leer más",
+      "blog.readTime": "lectura",
+      "blog.backToBlog": "Volver al blog",
+      "blog.share": "¿Te gustó este artículo? Compártelo con tus colegas.",
+      "contact.title": "Contacto",
+      "contact.intro": "¿Tienes un proyecto en mente? ¡Hablemos!",
+      "contact.name": "Nombre",
+      "contact.email": "Email",
+      "contact.message": "Mensaje",
+      "contact.send": "Enviar mensaje",
+      "contact.or": "O contáctame directamente:",
+      "testimonial1.text": "Kenny transformó completamente nuestra plataforma web. Su atención al detalle y experiencia técnica superaron nuestras expectativas. ¡Altamente recomendado!",
+      "testimonial1.name": "María González",
+      "testimonial1.role": "CEO en TechStart",
+      "testimonial2.text": "Trabajar con Kenny fue increíble. Entregó un producto de alta calidad a tiempo y siempre estuvo disponible para hacer ajustes. Un verdadero profesional.",
+      "testimonial2.name": "Carlos Rodríguez",
+      "testimonial2.role": "CTO en InnovateLab",
+      "testimonial3.text": "La aplicación móvil que Kenny desarrolló para nosotros es exactamente lo que necesitábamos. Rápida, intuitiva y con un diseño impecable.",
+      "testimonial3.name": "Ana Martínez",
+      "testimonial3.role": "Product Manager en DigitalFlow"
+    },
+    "en": {
+      "nav.home": "Home",
+      "nav.resume": "Resume",
+      "nav.work": "Work",
+      "nav.stack": "Stack",
+      "nav.blog": "Blog",
+      "nav.contact": "Contact",
+      "profile.role": "Frontend Engineer",
+      "profile.location": "Location",
+      "profile.status": "Available for work",
+      "profile.download": "Download CV",
+      "home.greeting": "Hi! I'm",
+      "home.title": "Frontend Engineer",
+      "home.description": "Specialized in creating exceptional web and mobile experiences with Vue.js, React, Next.js and React Native. I transform ideas into high-performance digital products.",
+      "home.cta": "View my work",
+      "home.stats.years": "Years of experience",
+      "home.stats.projects": "Completed projects",
+      "home.stats.satisfaction": "Client satisfaction",
+      "home.testimonials.title": "What my clients say",
+      "about.title": "Resume",
+      "about.education": "Education",
+      "about.experience": "Experience",
+      "about.skills": "Skills",
+      "about.degree": "Systems Engineering",
+      "about.university": "Technology University",
+      "about.job1.title": "Web & Mobile Developer",
+      "about.job1.company": "Mipto Tech",
+      "about.job1.desc": "Led and participated in 7 high-impact projects including B2B applications, live sports betting platforms, and tools with AI integration.",
+      "about.job2.title": "Frontend Developer",
+      "about.job2.company": "Digital Agency",
+      "about.job2.desc": "Developed responsive websites and mobile applications using React Native. Collaborated with design teams to create exceptional user interfaces.",
+      "about.job3.title": "Junior Developer",
+      "about.job3.company": "StartupXYZ",
+      "about.job3.desc": "Started my career developing reusable components and learning modern frontend development best practices.",
+      "about.skills.frontend": "Frontend Frameworks",
+      "about.skills.mobile": "Mobile Development",
+      "about.skills.styling": "Styling & UI",
+      "about.skills.tools": "Tools & DevOps",
+      "about.skills.management": "Project Management",
+      "work.title": "Featured Projects",
+      "work.description": "Below is a selection of projects I've collaborated on, both independently and integrated into high-performance teams. Each of these developments reflects my constant commitment to quality, scalability, and the creation of robust technological solutions.",
+      "work.viewProject": "View project",
+      "work.project1.title": "Globuco",
+      "work.project1.desc": "Search engine app where users find products from manufacturers and contact them via real-time chat.",
+      "work.project1.achievements": "Development of search app connecting users with manufacturers|Real-time chat implementation with Websockets|Google OAuth login integration|Google Maps implementation for geolocation|REST API connection with NestJS backend and NoSQL database|Development of views and features applying SOLID principles|App deployment on Google Play and App Store|Stripe payment integration in React Native",
+      "work.project2.title": "Shareity",
+      "work.project2.desc": "Social network style web app for challenge publishing with real-time chat, Reels-style video player and admin dashboard.",
+      "work.project2.achievements": "Social network style web app development for challenge uploads|Real-time chat implementation with Websockets|Reels-style video player with infinite scroll|Admin dashboard: issues, challenges and Stripe payments|Permission and role system for different user types",
+      "work.project3.title": "Centerhorses",
+      "work.project3.desc": "Horse betting web platform with multiple combinations, wallet management and real-time events.",
+      "work.project3.achievements": "Full development of horse betting platform|Multiple betting options and combinations|Live time management for winning/losing events|User profile and digital wallet|Token authentication for user and client validation",
+      "work.project4.title": "Live Sports",
+      "work.project4.desc": "Live sports betting platform (Soccer, Basketball, Tennis) with multi-client template system and whitelabel configuration.",
+      "work.project4.achievements": "Multimodal live sports betting platform|Multiple betting options and real-time combinations|Event, bet type and banner configuration per client|Custom ticket system per client|Implementation of multiple templates (Layers) with same functionality and different UI|Template selection per client via whitelabel configuration",
+      "work.project5.title": "Devactory",
+      "work.project5.desc": "Dashboard for file translation (PDF, DOCX and more) with AI, human review, wallet system and Stripe subscriptions.",
+      "work.project5.achievements": "Dashboard for multi-format translation: PDF, DOCX and more|AI translation and Certified Translator review option|Profile, wallet and word translation limit|Auth0 integration for authentication and role management|Stripe integration for word top-ups and subscriptions",
+      "work.project6.title": "COMFECO",
+      "work.project6.desc": "Project developed in a 5-person team during a Latin American development competition.",
+      "work.project6.achievements": "Participation in a 5-person team in LATAM competition|Development of authentication modules|Implementation of reusable and scalable components|Firebase connection for user management",
+      "work.project7.title": "Ohdear Xtra",
+      "work.project7.desc": "Platform for content creators with live streams, stories, advanced chat, subscriptions and integrated payments with Stripe and CCBILL.",
+      "work.project7.achievements": "Posts: images, videos, threads, polls, stories and lives|Complete subscription plan system for creators|In-chat purchase of posts, coins and premium messages|Lives with real-time comments, gift system and reactions|Private reply to stories, reactions to messages and posts|Firebase for posts, users, stories, lives, chat and reactions|Virtualized feed for better performance and experience|Whitelabel configuration via URL: colors, actions, modals|Payment integration with Stripe & CCBILL",
+      "work.project8.title": "SikerApp",
+      "work.project8.desc": "Complete web platform for motorcycle sales and financing with admin panel and customer system.",
+      "work.project8.achievements": "User registration, web catalog exploration, and financing simulation|Admin panel to manage models, users, financing, and payments|Upload of payment receipts and tracking of the purchase process|Authentication system with password recovery|Role-based protected routes",
+      "work.project9.title": "Frontend Ecosystem v2.0",
+      "work.project9.desc": "Large-scale multipurpose enterprise CRM system for marketing and call centers with independent multi-module support.",
+      "work.project9.achievements": "Commercial lead management and conversion tracking by channel|Integrated Kanban board to organize large-scale team tasks|Management of rewards, customer raffles, reports, and billing|Independent multi-module architecture guaranteeing frictionless scalability|Robust authentication system, workspaces, and dynamic navigation by role",
+      "work.project10.title": "CenterBet App",
+      "work.project10.desc": "Web application focused on a large sports betting platform structured with a layered modular architecture.",
+      "work.project10.achievements": "Optimized layered architecture separating visual from business logic|Base configuration support and global styles for a large number of layouts|Fluid navigation system prepared for diverse betting sections",
+      "work.project11.title": "Page Everyday",
+      "work.project11.desc": "Premium e-commerce store standing out for a very high quality in visual experience, effects, and dynamic interactions.",
+      "work.project11.achievements": "Complete catalog, luxury display, and shopping cart system|Innovative interactive design: gold particles, custom cursor|GSAP effects with horizontal scrolling, image reveal, and animated counters|Internal dashboard for comprehensive control and analysis of inventory and metrics",
+      "work.project12.title": "Auto Sensei Front",
+      "work.project12.desc": "Multipurpose automotive web platform to manage vehicles, validate documents without leaving the environment, with live charts.",
+      "work.project12.achievements": "Direct dynamic PDF document visualization and signing using PSPDFKit|Central vehicle management connected to performance graph modules|Automatic and instant notifications throughout interaction via WebSockets|Delay-free communication between different dealers on the platform",
+      "work.project13.title": "Tenancy SaaS",
+      "work.project13.desc": "A commercial SaaS system with multi-tenant architecture allowing isolated databases and configurations for different companies from a single codebase.",
+      "work.project13.achievements": "Central installation serving multiple companies, providing complete subdomain and database isolation|Dynamic tables handling thousands of individualized records|Complete system for inventory control, multiple locations, and sales with client permission management|High security employing universal two-factor authentication (2FA)",
+      "stack.title": "Tech Stack",
+      "stack.intro": "Technologies and tools I use in my daily work. Always learning and evolving.",
+      "stack.footer": "🚀 Always exploring new technologies and improving my existing skills.",
+      "stack.category.frontend": "Frontend Frameworks",
+      "stack.category.languages": "Languages",
+      "stack.category.styling": "Styling & Design",
+      "stack.category.backend": "Backend & Databases",
+      "stack.category.tools": "Tools & DevOps",
+      "stack.category.management": "Project Management",
+      "blog.title": "Blog",
+      "blog.intro": "I share my experiences, learnings and tips about web and mobile development.",
+      "blog.readMore": "Read more",
+      "blog.readTime": "read",
+      "blog.backToBlog": "Back to blog",
+      "blog.share": "Did you like this article? Share it with your colleagues.",
+      "contact.title": "Contact",
+      "contact.intro": "Have a project in mind? Let's talk!",
+      "contact.name": "Name",
+      "contact.email": "Email",
+      "contact.message": "Message",
+      "contact.send": "Send message",
+      "contact.or": "Or contact me directly:",
+      "testimonial1.text": "Kenny completely transformed our web platform. His attention to detail and technical expertise exceeded our expectations. Highly recommended!",
+      "testimonial1.name": "María González",
+      "testimonial1.role": "CEO at TechStart",
+      "testimonial2.text": "Working with Kenny was amazing. He delivered a high-quality product on time and was always available for adjustments. A true professional.",
+      "testimonial2.name": "Carlos Rodríguez",
+      "testimonial2.role": "CTO at InnovateLab",
+      "testimonial3.text": "The mobile app Kenny developed for us is exactly what we needed. Fast, intuitive and with impeccable design.",
+      "testimonial3.name": "Ana Martínez",
+      "testimonial3.role": "Product Manager at DigitalFlow"
+    }
+  }
+}

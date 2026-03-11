@@ -1,0 +1,399 @@
+{
+  "meta": {
+    "title": "Némesis | Community & Social Media Manager",
+    "description": "Portafolio de Némesis, Community Manager, Social Media Manager y QA Tester con más de 5 años de experiencia digital.",
+    "lang": "es"
+  },
+  "theme": {
+    "defaultTheme": "light",
+    "colors": {
+      "light": {
+        "--bg-primary": "#fdf6f4",
+        "--bg-secondary": "#ffffff",
+        "--text-primary": "#2d2028",
+        "--text-secondary": "#7a6570",
+        "--border-color": "#f2ccda",
+        "--accent-color": "#cea29c",
+        "--accent-hover": "#b8877f",
+        "--card-bg": "#ffffff",
+        "--hover-bg": "#fef9f7",
+        "--shadow-sm": "0 2px 4px rgba(206, 162, 156, 0.1)",
+        "--shadow-md": "0 4px 8px rgba(206, 162, 156, 0.12)",
+        "--shadow-lg": "0 8px 16px rgba(206, 162, 156, 0.15)"
+      },
+      "dark": {
+        "--bg-primary": "#1a1215",
+        "--bg-secondary": "#241a1e",
+        "--text-primary": "#f2e4e8",
+        "--text-secondary": "#b89da6",
+        "--border-color": "#3a2a30",
+        "--accent-color": "#cea29c",
+        "--accent-hover": "#e0b8b2",
+        "--card-bg": "#241a1e",
+        "--hover-bg": "#2e2226",
+        "--shadow-sm": "0 2px 4px rgba(0, 0, 0, 0.3)",
+        "--shadow-md": "0 4px 8px rgba(0, 0, 0, 0.3)",
+        "--shadow-lg": "0 8px 16px rgba(0, 0, 0, 0.4)"
+      }
+    },
+    "font": "Inter"
+  },
+  "profile": {
+    "name": "Némesis",
+    "initials": "NM",
+    "role": "Community & Social Media Manager",
+    "email": "nemesis@email.com",
+    "phone": "",
+    "location": "Remoto",
+    "availability": "Freelance • Remoto",
+    "socialLinks": [
+      { "platform": "FaLinkedin", "url": "https://linkedin.com/in/nemesis", "label": "LinkedIn" },
+      { "platform": "FaInstagram", "url": "https://instagram.com/nemesis", "label": "Instagram" },
+      { "platform": "HiMail", "url": "mailto:nemesis@email.com", "label": "Email" }
+    ],
+    "badges": ["Community Manager", "Social Media", "QA Tester"],
+    "cvUrl": ""
+  },
+  "navigation": {
+    "pages": [
+      { "id": "/", "icon": "HiHome", "labelKey": "nav.home" },
+      { "id": "/about", "icon": "HiDocumentText", "labelKey": "nav.resume" },
+      { "id": "/work", "icon": "HiBriefcase", "labelKey": "nav.work" },
+      { "id": "/tech-stack", "icon": "HiChip", "labelKey": "nav.stack" },
+      { "id": "/blog", "icon": "HiNewspaper", "labelKey": "nav.blog" },
+      { "id": "/contact", "icon": "HiMail", "labelKey": "nav.contact" }
+    ]
+  },
+  "home": {
+    "techChips": ["Community Management", "Social Media", "QA Testing", "Copywriting", "Estrategia Digital"],
+    "stats": [
+      { "number": 5, "suffix": "+", "labelKey": "home.stats.years" },
+      { "number": 30, "suffix": "+", "labelKey": "home.stats.projects" },
+      { "number": 100, "suffix": "%", "labelKey": "home.stats.satisfaction" }
+    ]
+  },
+  "testimonials": [
+    {
+      "name": "testimonial1.name",
+      "role": "testimonial1.role",
+      "avatar": "LC",
+      "textKey": "testimonial1.text",
+      "rating": 5
+    },
+    {
+      "name": "testimonial2.name",
+      "role": "testimonial2.role",
+      "avatar": "RP",
+      "textKey": "testimonial2.text",
+      "rating": 5
+    },
+    {
+      "name": "testimonial3.name",
+      "role": "testimonial3.role",
+      "avatar": "DA",
+      "textKey": "testimonial3.text",
+      "rating": 5
+    }
+  ],
+  "about": {
+    "education": [
+      { "period": "2018-2022", "title": "Comunicación Social", "institution": "Universidad" },
+      { "period": "2022", "title": "Marketing Digital", "institution": "Certificación Online" }
+    ],
+    "experience": [
+      { "period": "2022 - Presente", "title": "Community & Social Media Manager", "company": "Freelance" },
+      { "period": "2021-2022", "title": "Social Media Manager", "company": "Agencia Digital" },
+      { "period": "2019-2021", "title": "Community Manager", "company": "Marcas Comerciales" }
+    ],
+    "skills": {
+      "Hard Skills": ["Estrategia de contenidos", "Copywriting digital", "QA Testing funcional", "Análisis de métricas", "UX básica", "Gestión de marcas"],
+      "Soft Skills": ["Comunicación efectiva", "Organización", "Pensamiento crítico", "Atención al detalle", "Creatividad estratégica", "Trabajo remoto y colaborativo"]
+    }
+  },
+  "work": {
+    "projects": [
+      {
+        "titleKey": "work.project1.title",
+        "category": "Community Management",
+        "descKey": "work.project1.desc",
+        "tags": ["Redes Sociales", "Contenido", "Engagement"],
+        "icon": "HiChartBar"
+      },
+      {
+        "titleKey": "work.project2.title",
+        "category": "Social Media Strategy",
+        "descKey": "work.project2.desc",
+        "tags": ["Estrategia", "Métricas", "Crecimiento"],
+        "icon": "HiTemplate"
+      },
+      {
+        "titleKey": "work.project3.title",
+        "category": "QA Testing",
+        "descKey": "work.project3.desc",
+        "tags": ["Testing", "Usabilidad", "Reportes"],
+        "icon": "HiClipboardList"
+      },
+      {
+        "titleKey": "work.project4.title",
+        "category": "Campañas Digitales",
+        "descKey": "work.project4.desc",
+        "tags": ["Lanzamientos", "Campañas", "ROI"],
+        "icon": "HiStar"
+      },
+      {
+        "titleKey": "work.project5.title",
+        "category": "Branding",
+        "descKey": "work.project5.desc",
+        "tags": ["Tono de voz", "Identidad", "Benchmarking"],
+        "icon": "HiHeart"
+      },
+      {
+        "titleKey": "work.project6.title",
+        "category": "Content Strategy",
+        "descKey": "work.project6.desc",
+        "tags": ["Calendarios", "Copies", "Tendencias"],
+        "icon": "HiDocumentText"
+      }
+    ]
+  },
+  "techStack": {
+    "categories": [
+      {
+        "titleKey": "stack.category.social",
+        "skills": [
+          { "name": "Instagram", "icon": "FaInstagram", "level": 95, "color": "#E4405F" },
+          { "name": "TikTok", "icon": "FaTiktok", "level": 85, "color": "#000000" },
+          { "name": "Meta Business Suite", "icon": "FaInstagram", "level": 90, "color": "#1877F2" }
+        ]
+      },
+      {
+        "titleKey": "stack.category.analytics",
+        "skills": [
+          { "name": "Google Analytics", "icon": "SiGit", "level": 80, "color": "#E37400" },
+          { "name": "Meta Insights", "icon": "FaInstagram", "level": 88, "color": "#1877F2" }
+        ]
+      },
+      {
+        "titleKey": "stack.category.management",
+        "skills": [
+          { "name": "Notion", "icon": "SiNotion", "level": 92, "color": "#000000" },
+          { "name": "Trello", "icon": "SiTrello", "level": 88, "color": "#0079BF" },
+          { "name": "Asana", "icon": "SiAsana", "level": 85, "color": "#F06A6A" }
+        ]
+      },
+      {
+        "titleKey": "stack.category.design",
+        "skills": [
+          { "name": "Figma", "icon": "SiFigma", "level": 70, "color": "#F24E1E" },
+          { "name": "Canva", "icon": "SiFigma", "level": 90, "color": "#00C4CC" }
+        ]
+      },
+      {
+        "titleKey": "stack.category.qa",
+        "skills": [
+          { "name": "QA Testing", "icon": "HiClipboardList", "level": 85, "color": "#cea29c" },
+          { "name": "Documentación", "icon": "HiDocumentText", "level": 90, "color": "#f2ccda" }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "methods": [
+      {
+        "icon": "HiMail",
+        "label": "Email",
+        "value": "nemesispargas04@gmail.com",
+        "link": "mailto:nemesispargas"
+      },
+      {
+        "icon": "FaInstagram",
+        "label": "Instagram",
+        "value": "@nemesishope",
+        "link": "https://instagram.com/nemesishope"
+      },
+      {
+        "icon": "HiLocationMarker",
+        "label": "profile.location",
+        "value": "Trabajo Remoto"
+      }
+    ]
+  },
+  "blog": {
+    "posts": [
+      {
+        "title": "Cómo crear una estrategia de contenido efectiva",
+        "excerpt": "Los pasos esenciales para planificar contenido que conecte con tu audiencia y genere resultados.",
+        "date": "10 Feb 2026",
+        "readTime": "5 min",
+        "category": "Social Media",
+        "slug": "estrategia-contenido-efectiva",
+        "content": "<p>Una estrategia de contenido efectiva es la base de toda presencia digital exitosa. No se trata solo de publicar, sino de planificar con propósito.</p><h2>1. Define tu audiencia</h2><p>Antes de crear contenido, debes conocer a quién le hablas. Investiga sus intereses, problemas y plataformas favoritas.</p><h2>2. Establece objetivos claros</h2><p>¿Quieres generar awareness, engagement o conversiones? Cada objetivo requiere un tipo de contenido diferente.</p><h2>3. Crea un calendario editorial</h2><p>La consistencia es clave. Un calendario te ayuda a mantener el ritmo y cubrir todos los pilares de contenido.</p><h2>Conclusión</h2><p>Una buena estrategia de contenido no es improvisación. Es planificación, análisis y optimización constante.</p>"
+      },
+      {
+        "title": "QA Testing: por qué tu marca digital lo necesita",
+        "excerpt": "El testing de calidad no es solo para desarrolladores. Descubre cómo el QA mejora la experiencia de tu marca.",
+        "date": "4 Feb 2026",
+        "readTime": "6 min",
+        "category": "QA Testing",
+        "slug": "qa-testing-marca-digital",
+        "content": "<p>Cuando hablamos de QA Testing, muchos piensan solo en código. Pero la calidad digital abarca mucho más: desde la experiencia del usuario hasta la coherencia de tu marca.</p><h2>¿Qué es QA en el contexto digital?</h2><p>QA Testing funcional verifica que cada elemento de tu plataforma funcione correctamente: formularios, flujos de compra, enlaces, botones.</p><h2>¿Por qué importa para tu marca?</h2><p>Un error en tu web o app puede costarte clientes. El QA previene eso detectando errores antes de que el usuario los vea.</p><h2>Conclusión</h2><p>Invertir en QA es invertir en la confianza de tu audiencia.</p>"
+      },
+      {
+        "title": "Copywriting que convierte: guía práctica",
+        "excerpt": "Aprende a escribir textos que no solo informan, sino que inspiran acción en redes sociales.",
+        "date": "28 Ene 2026",
+        "readTime": "7 min",
+        "category": "Copywriting",
+        "slug": "copywriting-que-convierte",
+        "content": "<p>El copywriting es el arte de escribir para persuadir. En redes sociales, un buen copy puede marcar la diferencia entre un scroll y un click.</p><h2>Conoce a tu audiencia</h2><p>Escribe como habla tu audiencia. Usa su lenguaje, sus preocupaciones y sus aspiraciones.</p><h2>Usa fórmulas probadas</h2><p>AIDA (Atención, Interés, Deseo, Acción) sigue siendo una de las más efectivas.</p><h2>Conclusión</h2><p>Un buen copy no vende, conecta. Y cuando conecta, convierte.</p>"
+      },
+      {
+        "title": "Métricas que importan en redes sociales",
+        "excerpt": "No todas las métricas son iguales. Aprende a enfocarte en las que realmente impactan tu estrategia.",
+        "date": "20 Ene 2026",
+        "readTime": "5 min",
+        "category": "Analytics",
+        "slug": "metricas-redes-sociales",
+        "content": "<p>Los likes no pagan las facturas. Aprende a identificar las métricas que realmente importan para tu negocio.</p><h2>Engagement Rate</h2><p>Mide la interacción real de tu audiencia con tu contenido.</p><h2>Alcance vs Impresiones</h2><p>Entender la diferencia te ayuda a optimizar tu distribución de contenido.</p><h2>Conclusión</h2><p>Medir bien es el primer paso para mejorar. Enfócate en métricas accionables.</p>"
+      }
+    ]
+  },
+  "translations": {
+    "es": {
+      "nav.home": "Inicio",
+      "nav.resume": "Resume",
+      "nav.work": "Servicios",
+      "nav.stack": "Herramientas",
+      "nav.blog": "Blog",
+      "nav.contact": "Contacto",
+      "profile.role": "Community & Social Media Manager",
+      "profile.location": "Ubicación",
+      "profile.status": "Disponible para proyectos",
+      "profile.download": "Descargar CV",
+      "home.greeting": "¡Hola! Soy",
+      "home.title": "Community & Social Media Manager",
+      "home.description": "Transformo marcas en comunidades, estrategias en resultados y errores en oportunidades. Especialista en gestión de redes sociales, creación de contenido, análisis de métricas y QA Testing.",
+      "home.cta": "Ver mis servicios",
+      "home.stats.years": "Años de experiencia",
+      "home.stats.projects": "Proyectos gestionados",
+      "home.stats.satisfaction": "Satisfacción del cliente",
+      "home.testimonials.title": "Lo que dicen mis clientes",
+      "about.title": "Sobre Mí",
+      "about.education": "Formación",
+      "about.experience": "Experiencia",
+      "about.skills": "Habilidades",
+      "work.title": "Mis Servicios",
+      "work.viewProject": "Ver detalle",
+      "work.project1.title": "Gestión de Comunidades",
+      "work.project1.desc": "Gestión diaria de redes sociales, planificación de contenido mensual, redacción de copies estratégicos y moderación activa de la comunidad.",
+      "work.project2.title": "Estrategia Digital",
+      "work.project2.desc": "Estrategia digital personalizada con definición de tono y voz de marca, análisis de métricas, reportes y optimización continua del contenido.",
+      "work.project3.title": "QA Testing Digital",
+      "work.project3.desc": "Testing funcional de plataformas web y apps, detección y documentación de bugs, pruebas de usabilidad y validación de flujos críticos.",
+      "work.project4.title": "Campañas y Lanzamientos",
+      "work.project4.desc": "Planificación y ejecución de lanzamientos y campañas digitales con benchmarking, análisis de tendencias y medición de ROI.",
+      "work.project5.title": "Branding Digital",
+      "work.project5.desc": "Definición de identidad de marca digital, tono de voz, personalidad y coherencia visual en todos los canales de comunicación.",
+      "work.project6.title": "Contenido Estratégico",
+      "work.project6.desc": "Creación de calendarios editoriales, copies persuasivos y contenido alineado a objetivos comerciales con análisis de tendencias.",
+      "stack.title": "Herramientas",
+      "stack.intro": "Herramientas y plataformas que utilizo en mi trabajo diario para gestionar, crear y optimizar presencia digital.",
+      "stack.footer": "✨ Siempre aprendiendo nuevas herramientas para ofrecer mejores resultados.",
+      "stack.category.social": "Redes Sociales",
+      "stack.category.analytics": "Analytics & Métricas",
+      "stack.category.management": "Gestión de Proyectos",
+      "stack.category.design": "Diseño & Contenido",
+      "stack.category.qa": "QA & Documentación",
+      "blog.title": "Blog",
+      "blog.intro": "Comparto mis experiencias, aprendizajes y tips sobre social media, marketing digital y calidad.",
+      "blog.readMore": "Leer más",
+      "blog.readTime": "lectura",
+      "blog.backToBlog": "Volver al blog",
+      "blog.share": "¿Te gustó este artículo? Compártelo con tus colegas.",
+      "contact.title": "Contacto",
+      "contact.intro": "¿Buscas a alguien que entienda tu marca, cuide tu contenido y garantice calidad digital? ¡Trabajemos juntos!",
+      "contact.name": "Nombre",
+      "contact.email": "Email",
+      "contact.message": "Mensaje",
+      "contact.send": "Enviar mensaje",
+      "contact.or": "O contáctame directamente:",
+      "testimonial1.text": "Némesis transformo por completo nuestra presencia en redes. Su estrategia y creatividad nos ayudaron a conectar con nuestra audiencia de una manera auténtica.",
+      "testimonial1.name": "Laura Castro",
+      "testimonial1.role": "Directora de Marketing",
+      "testimonial2.text": "Profesional, organizada y con una visión estratégica increíble. Némesis elevó nuestra marca digital a otro nivel con su gestión de redes.",
+      "testimonial2.name": "Roberto Pérez",
+      "testimonial2.role": "CEO en BrandUp",
+      "testimonial3.text": "Su trabajo en QA fue impecable. Detectó errores críticos que habrían afectado la experiencia de nuestros usuarios. Totalmente recomendada.",
+      "testimonial3.name": "Diana Acosta",
+      "testimonial3.role": "Product Manager en AppFlow"
+    },
+    "en": {
+      "nav.home": "Home",
+      "nav.resume": "Resume",
+      "nav.work": "Services",
+      "nav.stack": "Tools",
+      "nav.blog": "Blog",
+      "nav.contact": "Contact",
+      "profile.role": "Community & Social Media Manager",
+      "profile.location": "Location",
+      "profile.status": "Available for projects",
+      "profile.download": "Download CV",
+      "home.greeting": "Hi! I'm",
+      "home.title": "Community & Social Media Manager",
+      "home.description": "I transform brands into communities, strategies into results, and errors into opportunities. Specialist in social media management, content creation, metrics analysis and QA Testing.",
+      "home.cta": "View my services",
+      "home.stats.years": "Years of experience",
+      "home.stats.projects": "Managed projects",
+      "home.stats.satisfaction": "Client satisfaction",
+      "home.testimonials.title": "What my clients say",
+      "about.title": "About Me",
+      "about.education": "Education",
+      "about.experience": "Experience",
+      "about.skills": "Skills",
+      "work.title": "My Services",
+      "work.viewProject": "View details",
+      "work.project1.title": "Community Management",
+      "work.project1.desc": "Daily social media management, monthly content planning, strategic copywriting and active community moderation.",
+      "work.project2.title": "Digital Strategy",
+      "work.project2.desc": "Personalized digital strategy with brand tone & voice definition, metrics analysis, reporting and continuous content optimization.",
+      "work.project3.title": "Digital QA Testing",
+      "work.project3.desc": "Functional testing of web platforms and apps, bug detection and documentation, usability testing and critical flow validation.",
+      "work.project4.title": "Campaigns & Launches",
+      "work.project4.desc": "Planning and execution of digital launches and campaigns with benchmarking, trend analysis and ROI measurement.",
+      "work.project5.title": "Digital Branding",
+      "work.project5.desc": "Digital brand identity definition, tone of voice, personality and visual coherence across all communication channels.",
+      "work.project6.title": "Strategic Content",
+      "work.project6.desc": "Editorial calendar creation, persuasive copies and content aligned with business objectives with trend analysis.",
+      "stack.title": "Tools",
+      "stack.intro": "Tools and platforms I use in my daily work to manage, create and optimize digital presence.",
+      "stack.footer": "✨ Always learning new tools to deliver better results.",
+      "stack.category.social": "Social Media",
+      "stack.category.analytics": "Analytics & Metrics",
+      "stack.category.management": "Project Management",
+      "stack.category.design": "Design & Content",
+      "stack.category.qa": "QA & Documentation",
+      "blog.title": "Blog",
+      "blog.intro": "I share my experiences, learnings and tips about social media, digital marketing and quality.",
+      "blog.readMore": "Read more",
+      "blog.readTime": "read",
+      "blog.backToBlog": "Back to blog",
+      "blog.share": "Did you like this article? Share it with your colleagues.",
+      "contact.title": "Contact",
+      "contact.intro": "Looking for someone who understands your brand, takes care of your content and guarantees digital quality? Let's work together!",
+      "contact.name": "Name",
+      "contact.email": "Email",
+      "contact.message": "Message",
+      "contact.send": "Send message",
+      "contact.or": "Or contact me directly:",
+      "testimonial1.text": "Némesis completely transformed our social media presence. Her strategy and creativity helped us connect with our audience in an authentic way.",
+      "testimonial1.name": "Laura Castro",
+      "testimonial1.role": "Marketing Director",
+      "testimonial2.text": "Professional, organized and with an incredible strategic vision. Némesis elevated our digital brand to another level with her social media management.",
+      "testimonial2.name": "Roberto Pérez",
+      "testimonial2.role": "CEO at BrandUp",
+      "testimonial3.text": "Her QA work was impeccable. She detected critical errors that would have affected our users' experience. Totally recommended.",
+      "testimonial3.name": "Diana Acosta",
+      "testimonial3.role": "Product Manager at AppFlow"
+    }
+  }
+}
