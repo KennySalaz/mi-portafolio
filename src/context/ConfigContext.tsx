@@ -1,6 +1,6 @@
 'use client';
 
-import React, { createContext, useContext, useState, useCallback } from 'react';
+import React, { createContext, useContext, useState, useCallback, useEffect } from 'react';
 import kennyConfig from '@/config/portfolio.config.json';
 import nemesisConfig from '@/config/nemesis.config.json';
 import { PortfolioConfig } from '@/config/types';
@@ -9,6 +9,16 @@ const configs: Record<string, PortfolioConfig> = {
     kenny: kennyConfig as PortfolioConfig,
     nemesis: nemesisConfig as PortfolioConfig,
 };
+
+// Mapeo de códigos secretos → perfil
+const SECRET_CODES: Record<string, string> = {
+    'k3nny-d3v-2026': 'kenny',
+    'n3m3s1s-pr0-2026': 'nemesis',
+};
+
+export function resolveConfigFromCode(code: string): string | null {
+    return SECRET_CODES[code] ?? null;
+}
 
 const configKeys = Object.keys(configs);
 
@@ -28,10 +38,20 @@ const ConfigContext = createContext<ConfigContextType>({
 
 export function ConfigProvider({ children }: { children: React.ReactNode }) {
     const [configKey, setConfigKey] = useState('kenny');
+    const [mounted, setMounted] = useState(false);
+
+    useEffect(() => {
+        const saved = localStorage.getItem('portfolioProfile');
+        if (saved && configs[saved]) {
+            setConfigKey(saved);
+        }
+        setMounted(true);
+    }, []);
 
     const switchConfig = useCallback((key: string) => {
         if (configs[key]) {
             setConfigKey(key);
+            localStorage.setItem('portfolioProfile', key);
         }
     }, []);
 
@@ -41,6 +61,8 @@ export function ConfigProvider({ children }: { children: React.ReactNode }) {
         allConfigKeys: configKeys,
         switchConfig,
     };
+
+    if (!mounted) return null;
 
     return (
         <ConfigContext.Provider value={value}>

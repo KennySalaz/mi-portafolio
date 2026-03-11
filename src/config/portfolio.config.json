@@ -52,7 +52,7 @@
       { "platform": "HiMail", "url": "mailto:mipto.kenny@gmail.com", "label": "Email" }
     ],
     "badges": ["Vue", "React", "Next.js", "React Native"],
-    "cvUrl": ""
+    "cvUrl": "/kennyCV.pdf"
   },
   "navigation": {
     "pages": [
@@ -362,7 +362,7 @@
       "profile.role": "Frontend Engineer",
       "profile.location": "Dirección",
       "profile.status": "Disponible para trabajar",
-      "profile.download": "Descargar CV",
+      "profile.download": "Abrir CV",
       "home.greeting": "¡Hola! Soy",
       "home.title": "Frontend Engineer",
       "home.description": "Especializado en crear experiencias web y móviles excepcionales con Vue.js, React, Next.js y React Native. Transformo ideas en productos digitales de alto rendimiento.",
@@ -475,7 +475,7 @@
       "profile.role": "Frontend Engineer",
       "profile.location": "Location",
       "profile.status": "Available for work",
-      "profile.download": "Download CV",
+      "profile.download": "Open CV",
       "home.greeting": "Hi! I'm",
       "home.title": "Frontend Engineer",
       "home.description": "Specialized in creating exceptional web and mobile experiences with Vue.js, React, Next.js and React Native. I transform ideas into high-performance digital products.",

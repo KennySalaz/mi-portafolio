@@ -52,7 +52,7 @@
       { "platform": "HiMail", "url": "mailto:nemesis@email.com", "label": "Email" }
     ],
     "badges": ["Community Manager", "Social Media", "QA Tester"],
-    "cvUrl": ""
+    "cvUrl": "/nemesisCV.pdf"
   },
   "navigation": {
     "pages": [
@@ -269,7 +269,7 @@
       "profile.role": "Community & Social Media Manager",
       "profile.location": "Ubicación",
       "profile.status": "Disponible para proyectos",
-      "profile.download": "Descargar CV",
+      "profile.download": "Abrir CV",
       "home.greeting": "¡Hola! Soy",
       "home.title": "Community & Social Media Manager",
       "home.description": "Transformo marcas en comunidades, estrategias en resultados y errores en oportunidades. Especialista en gestión de redes sociales, creación de contenido, análisis de métricas y QA Testing.",
@@ -337,7 +337,7 @@
       "profile.role": "Community & Social Media Manager",
       "profile.location": "Location",
       "profile.status": "Available for projects",
-      "profile.download": "Download CV",
+      "profile.download": "Open CV",
       "home.greeting": "Hi! I'm",
       "home.title": "Community & Social Media Manager",
       "home.description": "I transform brands into communities, strategies into results, and errors into opportunities. Specialist in social media management, content creation, metrics analysis and QA Testing.",

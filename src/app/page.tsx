@@ -4,7 +4,6 @@ import React from 'react';
 import { motion, useMotionValue, useTransform, animate } from 'framer-motion';
 import Link from 'next/link';
 import { HiBriefcase, HiMail } from 'react-icons/hi';
-import Testimonials from '@/components/Testimonials';
 import { useLanguage } from '@/context/LanguageContext';
 import { useConfig } from '@/context/ConfigContext';
 import styles from '@/styles/Hero.module.css';
@@ -126,8 +125,6 @@ export default function HomePage() {
           </motion.div>
         ))}
       </motion.div>
-
-      <Testimonials />
     </motion.div>
   );
 }

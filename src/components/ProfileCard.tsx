@@ -4,6 +4,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { HiMail, HiLocationMarker, HiCheckCircle } from 'react-icons/hi';
 import { IoMdDownload } from 'react-icons/io';
+import { HiEye } from 'react-icons/hi';
 import { useLanguage } from '@/context/LanguageContext';
 import { useConfig } from '@/context/ConfigContext';
 import { getIcon } from '@/config/iconMap';
@@ -121,12 +122,14 @@ const ProfileCard: React.FC = () => {
       </div>
 
       <motion.a
-        href={profile.cvUrl || `mailto:${profile.email}`}
+        href={profile.cvUrl || '#'}
+        target="_blank"
+        rel="noopener noreferrer"
         className={styles.downloadBtn}
         whileHover={{ scale: 1.02 }}
         whileTap={{ scale: 0.98 }}
       >
-        <IoMdDownload size={20} />
+        <HiEye size={20} />
         <span>{t('profile.download')}</span>
       </motion.a>
 
