@@ -3,6 +3,7 @@
 import React from 'react';
 import HeaderNav from '@/components/HeaderNav';
 import ProfileCard from '@/components/ProfileCard';
+import AuthGuard from '@/components/AuthGuard';
 import { ThemeProvider } from '@/context/ThemeContext';
 import { LanguageProvider } from '@/context/LanguageContext';
 import { ConfigProvider } from '@/context/ConfigContext';
@@ -13,15 +14,17 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
     <ConfigProvider>
       <LanguageProvider>
         <ThemeProvider>
-          <HeaderNav />
-          <div className={styles.container}>
-            <div className={styles.grid}>
-              <div className={styles.sidebar}>
-                <ProfileCard />
+          <AuthGuard>
+            <HeaderNav />
+            <div className={styles.container}>
+              <div className={styles.grid}>
+                <div className={styles.sidebar}>
+                  <ProfileCard />
+                </div>
+                <main className={styles.content}>{children}</main>
               </div>
-              <main className={styles.content}>{children}</main>
             </div>
-          </div>
+          </AuthGuard>
         </ThemeProvider>
       </LanguageProvider>
     </ConfigProvider>

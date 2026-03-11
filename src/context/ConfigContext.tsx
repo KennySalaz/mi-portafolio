@@ -13,7 +13,9 @@ const configs: Record<string, PortfolioConfig> = {
 // Mapeo de códigos secretos → perfil
 const SECRET_CODES: Record<string, string> = {
     'k3nny-d3v-2026': 'kenny',
+    'k3nny-dev-2026': 'kenny',
     'n3m3s1s-pr0-2026': 'nemesis',
+    'n3m3s1s-pro-2026': 'nemesis',
 };
 
 export function resolveConfigFromCode(code: string): string | null {
@@ -27,6 +29,7 @@ interface ConfigContextType {
     configKey: string;
     allConfigKeys: string[];
     switchConfig: (key: string) => void;
+    authorized: boolean;
 }
 
 const ConfigContext = createContext<ConfigContextType>({
@@ -34,16 +37,22 @@ const ConfigContext = createContext<ConfigContextType>({
     configKey: 'kenny',
     allConfigKeys: configKeys,
     switchConfig: () => { },
+    authorized: false,
 });
 
 export function ConfigProvider({ children }: { children: React.ReactNode }) {
     const [configKey, setConfigKey] = useState('kenny');
     const [mounted, setMounted] = useState(false);
+    const [authorized, setAuthorized] = useState(false);
 
     useEffect(() => {
         const saved = localStorage.getItem('portfolioProfile');
+        const auth = localStorage.getItem('portfolioAuth');
         if (saved && configs[saved]) {
             setConfigKey(saved);
+        }
+        if (auth === 'true') {
+            setAuthorized(true);
         }
         setMounted(true);
     }, []);
@@ -52,6 +61,8 @@ export function ConfigProvider({ children }: { children: React.ReactNode }) {
         if (configs[key]) {
             setConfigKey(key);
             localStorage.setItem('portfolioProfile', key);
+            localStorage.setItem('portfolioAuth', 'true');
+            setAuthorized(true);
         }
     }, []);
 
@@ -60,6 +71,7 @@ export function ConfigProvider({ children }: { children: React.ReactNode }) {
         configKey,
         allConfigKeys: configKeys,
         switchConfig,
+        authorized,
     };
 
     if (!mounted) return null;
@@ -73,6 +85,10 @@ export function ConfigProvider({ children }: { children: React.ReactNode }) {
 
 export function useConfig(): PortfolioConfig {
     return useContext(ConfigContext).config;
+}
+
+export function useAuthorized(): boolean {
+    return useContext(ConfigContext).authorized;
 }
 
 export function useConfigSwitcher() {
