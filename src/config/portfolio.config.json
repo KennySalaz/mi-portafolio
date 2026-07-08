@@ -42,14 +42,14 @@
     "name": "Kenny Salazar",
     "initials": "KS",
     "role": "Frontend Engineer",
-    "email": "mipto.kenny@gmail.com",
-    "phone": "+58 424-1539300",
+    "email": "kennysalazdev@gmail.com",
+    "phone": "+58 424-153-9300",
     "location": "Caracas, Venezuela",
     "availability": "Remoto • Freelance",
     "socialLinks": [
       { "platform": "FaLinkedin", "url": "https://www.linkedin.com/in/kenny-salazar-555547221", "label": "LinkedIn" },
       { "platform": "FaGithub", "url": "https://github.com/KennySalaz", "label": "GitHub" },
-      { "platform": "HiMail", "url": "mailto:mipto.kenny@gmail.com", "label": "Email" }
+      { "platform": "HiMail", "url": "mailto:kennysalazdev@gmail.com", "label": "Email" }
     ],
     "badges": ["Vue", "React", "Next.js", "React Native"],
     "cvUrl": "/kennyCV.pdf"
@@ -68,7 +68,7 @@
     "techChips": ["Vue.js", "React", "Next.js", "React Native", "TypeScript"],
     "stats": [
       { "number": 5, "suffix": "+", "labelKey": "home.stats.years" },
-      { "number": 50, "suffix": "+", "labelKey": "home.stats.projects" },
+      { "number": 15, "suffix": "+", "labelKey": "home.stats.projects" },
       { "number": 100, "suffix": "%", "labelKey": "home.stats.satisfaction" }
     ]
   },
@@ -97,20 +97,19 @@
   ],
   "about": {
     "education": [
-      { "period": "2020-2021", "title": "Desarrollo de Software", "institution": "Escuela Técnica" },
-      { "period": "2016-2018", "title": "Diseño Web", "institution": "Instituto Digital" }
+      { "period": "2011 - 2016", "title": "TSU en Informática", "institution": "IUTA — Instituto Universitario de Tecnología de Administración Industrial" }
     ],
     "experience": [
-      { "period": "2022 - 2026", "title": "Desarrollador Web y Móvil", "company": "Mipto Tech" },
-      { "period": "2021-2022", "title": "Frontend Developer", "company": "Startup Digital" },
-      { "period": "2019-2021", "title": "Web Developer", "company": "Agencia Creativa" }
+      { "period": "2021 - Presente", "title": "Desarrollador Frontend / Web y Móvil", "company": "Mipto Tech" },
+      { "period": "2019 - 2020", "title": "Desarrollador Web y Móvil", "company": "BetConnections" }
     ],
     "skills": {
-      "Frontend": ["Vue.js", "React", "Next.js", "Nuxt.js", "TypeScript", "JavaScript"],
+      "Frontend": ["React", "Next.js", "Vue.js", "Nuxt.js", "Angular", "TypeScript", "JavaScript"],
       "Mobile": ["React Native", "Expo"],
-      "Styling": ["Tailwind CSS", "CSS3", "SASS", "Styled Components"],
-      "Tools": ["Git", "Figma", "VS Code", "Postman"],
-      "Gestión de Proyectos": ["Jira", "Trello", "Asana", "Notion", "Linear"]
+      "State & Data": ["Redux", "Zustand", "Pinia", "Vuex", "TanStack Query", "Context API"],
+      "Testing": ["Jest", "Vitest", "React Testing Library", "Playwright"],
+      "Styling": ["Tailwind CSS", "SASS", "Styled Components", "CSS3"],
+      "Tools": ["Git", "GitHub", "Bitbucket", "Figma", "Postman", "Jira"]
     }
   },
   "work": {
@@ -218,6 +217,14 @@
         "achievementsKey": "work.project13.achievements",
         "tags": ["Laravel", "PHP", "MySQL", "Stancl Tenancy", "Bootstrap", "Blade Templates", "Google 2FA", "DataTables"],
         "icon": "HiCloud"
+      },
+      {
+        "titleKey": "work.project14.title",
+        "category": "Proyecto Personal",
+        "descKey": "work.project14.desc",
+        "achievementsKey": "work.project14.achievements",
+        "tags": ["React Native", "Expo", "TypeScript", "Zustand", "NativeWind", "Drizzle ORM", "SQLite"],
+        "icon": "HiChartBar"
       }
     ]
   },
@@ -240,6 +247,23 @@
         ]
       },
       {
+        "titleKey": "stack.category.state",
+        "skills": [
+          { "name": "Redux", "icon": "SiRedux", "level": 85, "color": "#764ABC" },
+          { "name": "TanStack Query", "icon": "SiReactquery", "level": 80, "color": "#FF4154" },
+          { "name": "Pinia", "icon": "SiVuedotjs", "level": 85, "color": "#FFD859" }
+        ]
+      },
+      {
+        "titleKey": "stack.category.testing",
+        "skills": [
+          { "name": "Jest", "icon": "SiJest", "level": 85, "color": "#C21325" },
+          { "name": "Vitest", "icon": "SiVitest", "level": 85, "color": "#6E9F18" },
+          { "name": "React Testing Library", "icon": "SiTestinglibrary", "level": 85, "color": "#E33332" },
+          { "name": "Playwright", "icon": "HiCheckCircle", "level": 80, "color": "#2EAD33" }
+        ]
+      },
+      {
         "titleKey": "stack.category.styling",
         "skills": [
           { "name": "Tailwind CSS", "icon": "SiTailwindcss", "level": 93, "color": "#06B6D4" },
@@ -251,14 +275,19 @@
       {
         "titleKey": "stack.category.backend",
         "skills": [
+          { "name": "NestJS", "icon": "SiNestjs", "level": 80, "color": "#E0234E" },
+          { "name": "Node.js", "icon": "SiNodedotjs", "level": 82, "color": "#339933" },
           { "name": "PostgreSQL", "icon": "SiPostgresql", "level": 82, "color": "#4169E1" },
-          { "name": "MongoDB", "icon": "SiMongodb", "level": 80, "color": "#47A248" }
+          { "name": "MongoDB", "icon": "SiMongodb", "level": 80, "color": "#47A248" },
+          { "name": "MySQL", "icon": "SiMysql", "level": 80, "color": "#4479A1" }
         ]
       },
       {
         "titleKey": "stack.category.tools",
         "skills": [
           { "name": "Git", "icon": "SiGit", "level": 90, "color": "#F05032" },
+          { "name": "GitHub", "icon": "FaGithub", "level": 90, "color": "#181717" },
+          { "name": "Bitbucket", "icon": "SiBitbucket", "level": 80, "color": "#0052CC" },
           { "name": "Docker", "icon": "SiDocker", "level": 75, "color": "#2496ED" }
         ]
       },
@@ -277,13 +306,13 @@
       {
         "icon": "HiMail",
         "label": "Email",
-        "value": "mipto.kenny@gmail.com",
-        "link": "mailto:mipto.kenny@gmail.com"
+        "value": "kennysalazdev@gmail.com",
+        "link": "mailto:kennysalazdev@gmail.com"
       },
       {
         "icon": "FaWhatsapp",
         "label": "WhatsApp",
-        "value": "+58 424-1539300",
+        "value": "+58 424-153-9300",
         "link": "https://wa.me/584241539300"
       },
       {
@@ -427,17 +456,22 @@
       "work.project11.title": "Page Everyday",
       "work.project11.desc": "Tienda e-commerce premium destacada por una calidad muy fuerte en experiencia visual, efectos e interacciones dinámicas.",
       "work.project11.achievements": "Catálogo completo, visualización de lujo y carrito con sistema de compra|Innovador diseño interactivo: partículas de oro, cursor personalizado|Efectos GSAP con scroll horizontal, revelado en imágenes y contadores animados|Dashboard interno para el control y análisis exhaustivo sobre el inventario y métricas",
-      "work.project12.title": "Auto Sensei Front",
+      "work.project12.title": "Auto Sensei",
       "work.project12.desc": "Plataforma web automotriz multipropósito para gestionar vehículos, validar documentos sin salir del entorno y gráficas en vivo.",
       "work.project12.achievements": "Visualización y firma de documentos PDF dinámicos directamente usando PSPDFKit|Gestión central de vehículos conectados a módulos de gráficos de rendimiento|Notificaciones automáticas e instantáneas en toda la interacción a través de WebSockets|Comunicación sin tiempo de espera entre distintos concesionarios sobre la plataforma",
       "work.project13.title": "Tenancy SaaS",
       "work.project13.desc": "Un sistema comercial SaaS de arquitectura multi-tenant permitiendo brindar bases de datos y configuraciones aisladas a distintas empresas desde una misma base de código.",
       "work.project13.achievements": "Instalación central para múltiples empresas, obteniendo completo aislamiento de subdominio y bases de datos por separado|Tablas dinámicas manejando miles de registros individualizados|Sistema completo para controlar inventario, múltiples sedes y ventas con gestión de permisos por clientes|Alta seguridad empleando inicio de doble factor universal (2FA)",
+      "work.project14.title": "Fluctua",
+      "work.project14.desc": "App móvil personal de finanzas para registrar gastos y comparar precios de productos entre comercios, con gráficas interactivas y modo offline.",
+      "work.project14.achievements": "Registro de gastos y comparación de precios de productos entre comercios|Gráficas interactivas de gastos con react-native-gifted-charts|Almacenamiento local offline-first con SQLite y Drizzle ORM|Autenticación biométrica y notificaciones push|Generación y compartición de reportes en PDF",
       "stack.title": "Tech Stack",
       "stack.intro": "Tecnologías y herramientas que utilizo en mi día a día. Siempre aprendiendo y evolucionando.",
       "stack.footer": "🚀 Siempre explorando nuevas tecnologías y mejorando mis habilidades existentes.",
       "stack.category.frontend": "Frontend Frameworks",
       "stack.category.languages": "Lenguajes",
+      "stack.category.state": "Estado y Datos",
+      "stack.category.testing": "Testing",
       "stack.category.styling": "Styling & Design",
       "stack.category.backend": "Backend & Databases",
       "stack.category.tools": "Tools & DevOps",
@@ -540,17 +574,22 @@
       "work.project11.title": "Page Everyday",
       "work.project11.desc": "Premium e-commerce store standing out for a very high quality in visual experience, effects, and dynamic interactions.",
       "work.project11.achievements": "Complete catalog, luxury display, and shopping cart system|Innovative interactive design: gold particles, custom cursor|GSAP effects with horizontal scrolling, image reveal, and animated counters|Internal dashboard for comprehensive control and analysis of inventory and metrics",
-      "work.project12.title": "Auto Sensei Front",
+      "work.project12.title": "Auto Sensei",
       "work.project12.desc": "Multipurpose automotive web platform to manage vehicles, validate documents without leaving the environment, with live charts.",
       "work.project12.achievements": "Direct dynamic PDF document visualization and signing using PSPDFKit|Central vehicle management connected to performance graph modules|Automatic and instant notifications throughout interaction via WebSockets|Delay-free communication between different dealers on the platform",
       "work.project13.title": "Tenancy SaaS",
       "work.project13.desc": "A commercial SaaS system with multi-tenant architecture allowing isolated databases and configurations for different companies from a single codebase.",
       "work.project13.achievements": "Central installation serving multiple companies, providing complete subdomain and database isolation|Dynamic tables handling thousands of individualized records|Complete system for inventory control, multiple locations, and sales with client permission management|High security employing universal two-factor authentication (2FA)",
+      "work.project14.title": "Fluctua",
+      "work.project14.desc": "Personal finance mobile app to track expenses and compare product prices across stores, with interactive charts and offline mode.",
+      "work.project14.achievements": "Expense tracking and product price comparison across stores|Interactive expense charts with react-native-gifted-charts|Offline-first local storage with SQLite and Drizzle ORM|Biometric authentication and push notifications|PDF report generation and sharing",
       "stack.title": "Tech Stack",
       "stack.intro": "Technologies and tools I use in my daily work. Always learning and evolving.",
       "stack.footer": "🚀 Always exploring new technologies and improving my existing skills.",
       "stack.category.frontend": "Frontend Frameworks",
       "stack.category.languages": "Languages",
+      "stack.category.state": "State & Data",
+      "stack.category.testing": "Testing",
       "stack.category.styling": "Styling & Design",
       "stack.category.backend": "Backend & Databases",
       "stack.category.tools": "Tools & DevOps",

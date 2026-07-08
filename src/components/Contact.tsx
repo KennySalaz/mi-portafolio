@@ -23,7 +23,7 @@ const Contact = () => {
 
       <div className="grid md:grid-cols-2 gap-4">
         <a
-          href="mailto:mipto.kenny@gmail.com"
+          href="mailto:kennysalazdev@gmail.com"
           className="group rounded-2xl border border-slate-100 bg-slate-50 p-5 shadow-sm hover:-translate-y-1 hover:shadow-md transition"
         >
           <div className="flex items-center gap-3">
@@ -32,7 +32,7 @@ const Contact = () => {
             </div>
             <div>
               <p className="text-xs uppercase tracking-wide text-slate-500 font-semibold">Email</p>
-              <p className="text-base font-semibold text-slate-900">mipto.kenny@gmail.com</p>
+              <p className="text-base font-semibold text-slate-900">kennysalazdev@gmail.com</p>
               <p className="text-xs text-orange-600">Respuesta en horas hábiles</p>
             </div>
           </div>
@@ -59,7 +59,7 @@ const Contact = () => {
         </p>
         <div className="flex flex-wrap gap-3 mt-4">
           <a
-            href="mailto:mipto.kenny@gmail.com"
+            href="mailto:kennysalazdev@gmail.com"
             className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-linear-to-r from-orange-500 to-red-500 text-white font-semibold shadow-lg hover:shadow-xl transition-transform duration-200 hover:-translate-y-0.5"
           >
             Enviar email

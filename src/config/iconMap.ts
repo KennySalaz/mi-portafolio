@@ -14,7 +14,8 @@ import {
     SiNodedotjs, SiPython, SiFirebase, SiAmazon, SiVercel, SiNetlify,
     SiGraphql, SiRedux, SiSass, SiStyledcomponents, SiNuxtdotjs, SiExpo,
     SiLinear, SiAsana, SiSlack, SiVite, SiWebpack, SiJest, SiCypress,
-    SiStorybook, SiPostman,
+    SiStorybook, SiPostman, SiReactquery, SiVitest, SiTestinglibrary,
+    SiNestjs, SiMysql, SiBitbucket,
 } from 'react-icons/si';
 
 const iconMap: Record<string, IconType> = {
@@ -89,6 +90,12 @@ const iconMap: Record<string, IconType> = {
     SiCypress,
     SiStorybook,
     SiPostman,
+    SiReactquery,
+    SiVitest,
+    SiTestinglibrary,
+    SiNestjs,
+    SiMysql,
+    SiBitbucket,
 };
 
 export function getIcon(name: string): IconType | undefined {

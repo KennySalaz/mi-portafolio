@@ -50,7 +50,7 @@ const About = () => {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pt-4 border-t border-slate-100">
         {[
           { label: 'Años', value: '5+', color: 'text-orange-600' },
-          { label: 'Proyectos', value: '50+', color: 'text-red-500' },
+          { label: 'Proyectos', value: '15+', color: 'text-red-500' },
           { label: 'Stack', value: 'Vue · React', color: 'text-blue-600' },
           { label: 'Trabajo', value: '100% Remoto', color: 'text-green-600' },
         ].map((stat) => (
