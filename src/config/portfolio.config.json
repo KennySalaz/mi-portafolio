@@ -52,7 +52,8 @@
       { "platform": "HiMail", "url": "mailto:kennysalazdev@gmail.com", "label": "Email" }
     ],
     "badges": ["Vue", "React", "Next.js", "React Native"],
-    "cvUrl": "/kennyCV.pdf"
+    "cvUrl": "/kenny-cv-es.pdf",
+    "cvUrlEn": "/kenny-cv-en.pdf"
   },
   "navigation": {
     "pages": [
@@ -391,7 +392,7 @@
       "profile.role": "Frontend Engineer",
       "profile.location": "Dirección",
       "profile.status": "Disponible para trabajar",
-      "profile.download": "Abrir CV",
+      "profile.download": "Descargar CV",
       "home.greeting": "¡Hola! Soy",
       "home.title": "Frontend Engineer",
       "home.description": "Especializado en crear experiencias web y móviles excepcionales con Vue.js, React, Next.js y React Native. Transformo ideas en productos digitales de alto rendimiento.",
@@ -509,7 +510,7 @@
       "profile.role": "Frontend Engineer",
       "profile.location": "Location",
       "profile.status": "Available for work",
-      "profile.download": "Open CV",
+      "profile.download": "Download CV",
       "home.greeting": "Hi! I'm",
       "home.title": "Frontend Engineer",
       "home.description": "Specialized in creating exceptional web and mobile experiences with Vue.js, React, Next.js and React Native. I transform ideas into high-performance digital products.",

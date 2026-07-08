@@ -4,16 +4,18 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { HiMail, HiLocationMarker, HiCheckCircle } from 'react-icons/hi';
 import { IoMdDownload } from 'react-icons/io';
-import { HiEye } from 'react-icons/hi';
 import { useLanguage } from '@/context/LanguageContext';
 import { useConfig } from '@/context/ConfigContext';
 import { getIcon } from '@/config/iconMap';
 import styles from '@/styles/ProfileCard.module.css';
 
 const ProfileCard: React.FC = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const config = useConfig();
   const { profile } = config;
+
+  const cvHref =
+    language === 'en' && profile.cvUrlEn ? profile.cvUrlEn : profile.cvUrl || '#';
 
   const info = [
     { label: 'Email', value: profile.email, icon: HiMail, link: `mailto:${profile.email}` },
@@ -122,14 +124,15 @@ const ProfileCard: React.FC = () => {
       </div>
 
       <motion.a
-        href={profile.cvUrl || '#'}
+        href={cvHref}
         target="_blank"
         rel="noopener noreferrer"
+        download
         className={styles.downloadBtn}
         whileHover={{ scale: 1.02 }}
         whileTap={{ scale: 0.98 }}
       >
-        <HiEye size={20} />
+        <IoMdDownload size={20} />
         <span>{t('profile.download')}</span>
       </motion.a>
 

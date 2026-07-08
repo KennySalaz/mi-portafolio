@@ -40,6 +40,7 @@ export interface ProfileConfig {
     socialLinks: SocialLink[];
     badges: string[];
     cvUrl?: string;
+    cvUrlEn?: string;
 }
 
 export interface NavPage {

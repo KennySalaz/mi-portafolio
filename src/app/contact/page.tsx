@@ -2,7 +2,6 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { HiPaperAirplane } from 'react-icons/hi';
 import { useLanguage } from '@/context/LanguageContext';
 import { useConfig } from '@/context/ConfigContext';
 import { getIcon } from '@/config/iconMap';
@@ -31,11 +30,6 @@ export default function ContactPage() {
   const itemVariants = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0 },
-  };
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    alert('Gracias por tu mensaje. Te contactaré pronto!');
   };
 
   return (
@@ -88,61 +82,6 @@ export default function ContactPage() {
         })}
       </div>
 
-      <motion.form
-        className={contactStyles.form}
-        variants={itemVariants}
-        onSubmit={handleSubmit}
-      >
-        <h2 className={contactStyles.formTitle}>{t('contact.or')}</h2>
-
-        <div className={contactStyles.formGroup}>
-          <label htmlFor="name" className={contactStyles.label}>
-            {t('contact.name')}
-          </label>
-          <input
-            type="text"
-            id="name"
-            className={contactStyles.input}
-            placeholder={t('contact.name')}
-            required
-          />
-        </div>
-
-        <div className={contactStyles.formGroup}>
-          <label htmlFor="email" className={contactStyles.label}>
-            {t('contact.email')}
-          </label>
-          <input
-            type="email"
-            id="email"
-            className={contactStyles.input}
-            placeholder={t('contact.email')}
-            required
-          />
-        </div>
-
-        <div className={contactStyles.formGroup}>
-          <label htmlFor="message" className={contactStyles.label}>
-            {t('contact.message')}
-          </label>
-          <textarea
-            id="message"
-            className={contactStyles.textarea}
-            placeholder={t('contact.message')}
-            required
-          />
-        </div>
-
-        <motion.button
-          type="submit"
-          className={contactStyles.submitButton}
-          whileHover={{ scale: 1.02 }}
-          whileTap={{ scale: 0.98 }}
-        >
-          <HiPaperAirplane size={20} />
-          <span>{t('contact.send')}</span>
-        </motion.button>
-      </motion.form>
     </motion.div>
   );
 }
